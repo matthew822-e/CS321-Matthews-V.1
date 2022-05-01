@@ -1,4 +1,6 @@
 package com.example.cs321app;
+import static com.example.cs321app.R.layout.activity_detail;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -14,9 +16,9 @@ public class DetailActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
-        getSelectedShape();
-        setValues();
+        setContentView(R.layout.test);
+        //getSelectedShape();
+        //setValues();
 
     }
 
